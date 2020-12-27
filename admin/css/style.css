@@ -1,0 +1,609 @@
+.d-flex{
+	background: url('../images/header.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	height: 161px; 
+	padding-top: 29px; 
+	padding-bottom: 30px;
+}
+
+
+.input{
+	border: 1px solid #fff; 
+	padding-left: 30px; 
+	background: transparent;
+	width: 100%;
+	height: 50px;
+	color: #fff;
+}
+
+.myinput{
+	border: 1px solid #fff;
+	padding-right: 20px;
+}
+.planbtn{
+ 	height: 51px; 
+ 	width: 198px; 
+ 	background: #AD976E;
+ 	color: #fff;
+ 	padding-top: 10px;
+  	margin-left: 26px;
+ }
+.formbtn{
+ 	height: 51px; 
+ 	width: 100%;
+ 	background: #AD976E;
+ 	color: #fff;
+ 	padding-top: 10px;
+
+}
+.formbtn:hover{
+ 	height: 51px; 
+ 	width: 100%;
+ 	background: #AD976E;
+ 	color: #fff;
+ 	padding-top: 10px;
+
+}
+.planbtn:hover{
+ 	background: #3A3A3A;
+ 	color: #AD976E;
+ }
+.planbtn2{
+ 	height: 51px; 
+ 	width: 198px; 
+ 	background: #fff;
+ 	color: #000;
+ 	margin-right: 26px;
+ 	padding-top: 10px;
+ }
+.planbtn2:hover{
+ 	background: #000;
+ 	color: #fff;
+ }
+.webBtn{
+  	height: 41px; 
+ 	width: 85%; 
+ 	background: #AD976E;
+ 	color: #fff;
+ 	padding-top: 10px;
+ 	padding-left: 10px;
+ 	vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 19px;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.01em;
+ }
+  .webBtn:hover{
+  	background: #c5c5c5;
+  }
+ .carousel-fixed-item h5{
+ 	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 3vw;
+/*	line-height: 60px;*/
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	padding-left: 270px;
+	padding-right: 270px;
+	margin-top: 251px;
+ }
+ .carousel-fixed-item h4{
+ 	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 3vw;
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	margin-left: 155px;
+	margin-right: 155px;
+	margin-top: 251px;
+ }
+ .desc{
+ 	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.05em;
+ }
+ .btn.pagebtn{
+ 	border: 1px solid #fff; 
+ 	box-sizing: border-box; 
+ 	margin-right: 19px; 
+ 	width: 37px; 
+ 	height: 33px;
+ }
+ h5{
+ 	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 37px;
+	letter-spacing: 0.05em;
+
+	color: #DAC08E;
+ }
+body{
+	padding:0px;
+	height:0px;
+	background-color: #000;
+	font-family: 'Poppins';
+}
+div.cart-nav a .right{
+	padding-top: 31px;
+    margin-right: 400px;
+}
+
+nav li{
+	font-weight: 500;
+	font-size: 13px;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.05em;
+	font-style: normal;
+}
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+}
+nav.nav-center ul li a:hover {
+    color: #DAC08E;
+    background:none;
+}
+nav.nav-center ul li a.active{
+    color: #DAC08E;
+}
+.menu{
+	height: 80px;
+	text-align: center;
+	align-items: center;
+}
+.carousel-img{
+	height: 658px;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+	border-radius: 0px;
+}
+.about-img{
+	height: 370px;
+	/*background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/aboutus-banner.png);*/
+	border-radius: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about-img h5{
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	margin-top: 156px;
+	color: #FFFFFF;
+}
+.navRed{
+	margin-top: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Mobile responsiv style*/
+@media only screen and (max-width: 767px){
+	.menu{
+		height: 80px;
+		text-align: center;
+		align-items: center;
+		background: red;
+		padding-left: 10%;
+	}	
+	 .webBtn{
+	 	font-size:2vw;
+	 }
+	 .bh6{
+	 	font-size: 1vw;
+	 }
+	 .navRed{
+	 	font-size: 2vw;
+	 }
+}
+
+/*
+@media only screen and (min-width: 0){
+p .grey-text {
+	font-size:10px;
+}
+*/
+@media only screen and (min-width: 601px){
+	.carousel-caption h5{
+		font-family: Playfair Display;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+/*		line-height: 60px;*/
+		text-align: center;
+		letter-spacing: 0.05em;
+		margin-top: 25px;
+		color: #FFFFFF; 
+	}
+    .carousel-fixed-item h5{
+ 	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2vw;
+/*	line-height: 60px;*/
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: 51px;
+ }
+    .home-btn{
+        display: block;
+        padding-top: 10px;
+    }
+}
+
+.container{
+	width: 77%;
+}
+.card-content h6{
+	color:#AD976E;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+	letter-spacing: 0.05em;
+}
+.webCard{
+	height: 362px;
+	border: 1px solid #C1C1C1;
+	box-sizing: border-box;
+	max-height: 90%;
+}
+section .promo h5 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bolder;
+	font-size: 17px;
+	line-height: 28px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+}
+section .promo p {
+	font-family: Poppins;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+}
+section	.promo{
+	margin-top: 17.5px;
+	margin-bottom: 63px;
+}
+section .promo hr{
+	 border: solid 2px #dac08e;
+	 width:51px;
+}
+section .container img{
+	 margin-right: 16px;  
+	 margin-bottom:4px;
+	 margin-top: 56px;
+}
+.bh6{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	align-items: center;
+	text-align: center;
+	color: #DAC08E;
+}
+.blogCol{
+	 border-right:solid 3px #dac08e;padding-left:20px;
+}
+footer h4{
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 37px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+}
+footer p{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+}
+footer .col a{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+section .container .hwImg{
+	width:40%;
+}
+
+nav h4{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.15em;
+	padding-top: 5px;
+	color: #FFFFFF;
+}
+.form-back{
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/collectionBanner.png'); 
+	border-radius: 0px; 
+}
+.login-div {
+	padding-top: 64px; 
+	padding-right: 474px; 
+	padding-left: 474px;
+
+}
+h4{
+	font-family: Playfair Display; 
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 37px;
+	text-align: center;
+	letter-spacing: 0.05em;
+}
+.upload > input{
+    display: none;
+}
+
+.upload img{
+    width: 80px;
+    cursor: pointer;
+}
+#style-map{
+	height: 100%;
+}
+
+/* Pagination styling start updated 2020/09/19 ########################################################## */
+.pagination .active{
+    background: #000;
+    border: solid 1px #fff;
+    width: 37px;
+    height: 33px;
+}
+.pagination .waves-effect{
+    background: #000;
+    border: solid 1px #fff;
+    margin-left: 19px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    width: 37px;
+    height: 33px;
+}
+/*Pagination styling ends*/
+
+/*About us page styling*/
+.about-list li{
+    list-style: square;
+    margin-left: 109px;
+    margin-top: 142px;
+}
+.partnerPara{
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+/*About us page styling */
+/*
+{
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+*/
+
+.scbBtn{
+    width: 198px;
+    height: 50px;
+ 	background: #AD976E;
+ 	color: #fff;
+  	margin-left: 26px;
+    border:solid 2px #ad976e;
+    font-family: 'Poppins';
+    font-weight:500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 20px;
+ }
+.scbBtn:hover{
+ 	background: rgba(255, 255, 255, 0.5);
+ 	color: #AD976E;
+ }
+
+ /* Blog section styling starts from here #################################################### */
+section .blogPar{
+    font-weight:700;font-size:28px;line-height:37.32px;text-align:left;margin-top:5px;font-family: Platfair Display;
+}
+section .blogTit{
+    font-family: Poppins;
+    font-weight: 400;
+    font-style:normal;
+    font-size:15px;
+    line-height :22.5px;
+    text-align: left;
+    margin-top: 20px;
+    color:#fff
+}
+
+/* WebShop CSS Styling starts here ########################################################*/
+ .webShpBtn{
+ 	margin-bottom:30px;
+ 	width:171px;
+ 	height:51px;
+ 	text-transform:capitalize;
+ 	font-size:15px;
+ 	font-weight:500;
+ 	line-height: 30px;
+ 	align-content:center;
+ 	padding-top:8px;
+ 	padding-bottom:8px;
+ 	padding-left: 12px;
+ 	padding-right: 12px;
+ 	background-color: #AD976E;
+ 	text-decoration: none;
+    color: #fff;
+    text-align: center;
+    letter-spacing: .5px;
+    border-radius: 5px;
+    border: solid 2px #AD976E;
+    margin-right:21px;
+ }
+ .webShpBtn:hover{
+ 	background: #c5c5c5;
+ }
+
+ /* CULLECTION CUSTOM CSS*/
+ h6, .head-text{
+ 	font-family: Poppins;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	color:#FFF;
+ }
+p, .sub-title{
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	color:#fff;
+}
+div .accordian, p{
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 27px;
+	letter-spacing: 0.05em;
+	text-align: left;
+}
+
+
+nav.nav-center ul li a.active{
+    color: #DAC08E;
+}
+div.card-content ul li a.active{
+	color: #DAC08E;
+}
+    div.carousel-slider{
+        height: 658px;
+    }
+    .home-btn{
+        margin-top: 76px; margin-bottom: 157px;
+    }
+@media screen and (max-width: 767px) {
+	.d-flex {
+		height: 92px;
+        padding-top: 14px; 
+	    padding-bottom: 15px;
+	}
+    .cart-nav{
+        margin-right: 5%;
+        margin-bottom: 20px;
+
+    }
+    nav .right {
+        padding-top: 8px;
+        margin-right: 0px;
+    }
+    nav.sidenav-trigger{
+        margin-top: 20px;
+    }
+    div.carousel-slider{
+        height: 300px;
+    }
+	.home .site-content {
+		padding-top: 10% !important;
+	}
+    
+        .carousel-fixed-item h5{
+ 	    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-top: 156px;
+    color: #FFFFFF;
+ }
+    .home-btn{
+        display: block;
+        padding-top: 10px;
+    }
+    .home-btn a{
+        display: flex;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+        max-width: 90%;
+        margin: 20px;
+        width: 100%;
+    }
+}
